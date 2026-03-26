@@ -1,1 +1,110 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+nav .container .reddy_logo {
+  width: 150px;
+}
+nav .container .reddy_logo img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+nav .container ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+nav .container ul li {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3d3a38;
+  transition: all 0.3s ease;
+  position: relative;
+}
+nav .container ul li:hover {
+  transform: translateY(-5px);
+  color: #a58c81;
+  cursor: pointer;
+}
+nav .container ul li::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  width: 0px;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s ease;
+  background-color: #a58c81;
+}
+nav .container ul li:hover::after {
+  width: 100%;
+}
+
+.hero {
+  background-image: url("../imgs/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero .container {
+  padding: 150px 0px;
+}
+.hero .container .hero_info {
+  padding-left: 60px;
+}
+.hero .container .hero_info h1 {
+  font-size: 70px;
+  font-weight: 400;
+  color: #3d3a38;
+  width: 600px;
+  font-family: "Mirza", serif;
+}
+.hero .container .hero_info h1 :nth-child(1) {
+  font-size: 70px;
+  font-weight: 400;
+  color: #876b5e;
+  font-family: "Mirza", serif;
+}
+.hero .container .hero_info p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3d3a38;
+  width: 600px;
+  padding: 40px 0px;
+}
+.hero .container .hero_info button {
+  padding: 10px 30px;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+.hero .container .hero_info button:hover {
+  transform: translateY(-5px);
+  background-color: transparent;
+  cursor: pointer;
+}
+.hero .container .hero_info button:active {
+  transform: scale(0.9);
+}/*# sourceMappingURL=main.css.map */
