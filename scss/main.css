@@ -142,7 +142,7 @@ nav .container ul li:hover::after {
 }
 
 .video {
-  background-color: #3D3A38;
+  background-color: #3d3a38;
 }
 .video .container {
   padding: 50px 0px;
@@ -160,7 +160,7 @@ nav .container ul li:hover::after {
 .video .container .video_title p {
   font-size: 18px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 700px;
   margin: 0px auto;
 }
@@ -188,7 +188,7 @@ nav .container ul li:hover::after {
 .customer .container .customer_title h1 {
   font-size: 60px;
   font-weight: 400;
-  color: #3D3A38;
+  color: #3d3a38;
   text-align: center;
 }
 .customer .container .customer_box {
@@ -198,7 +198,7 @@ nav .container ul li:hover::after {
   padding: 50px 0px;
 }
 .customer .container .customer_box .customer_card {
-  border: 1px solid #E4E4E4;
+  border: 1px solid #e4e4e4;
   width: 300px;
   padding: 15px 20px;
   transition: all 0.3s ease;
@@ -214,7 +214,7 @@ nav .container ul li:hover::after {
 .customer .container .customer_box .customer_card p {
   font-size: 16px;
   font-weight: 400;
-  color: #3D3A38;
+  color: #3d3a38;
   line-height: 25px;
   width: 260px;
   margin: 15px;
@@ -236,4 +236,101 @@ nav .container ul li:hover::after {
 .customer .container .customer_box .customer_card .customer_card_text .icon i {
   color: orange;
   font-size: 9px;
+}
+
+footer .container {
+  display: flex;
+  align-items: start;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+footer .container .footer_info h1 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #3d3a38;
+  margin-bottom: 20px;
+  font-family: "Mirza", serif;
+}
+footer .container .footer_info .footer_input {
+  padding: 10px 0px;
+}
+footer .container .footer_info .footer_input h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3d3a38;
+}
+footer .container .footer_info .footer_input input {
+  width: 500px;
+  padding: 10px 10px;
+  background-color: #f8f8f8;
+  border: 1px solid #eaeaea;
+  outline: none;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+footer .container .footer_info .footer_input input:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 5px 1px gray;
+  cursor: pointer;
+}
+footer .container .footer_info button {
+  padding: 15px 50px;
+  background-color: #a58c81;
+  border-radius: 100px;
+  border: none;
+  border-top: 2px solid #a58c81;
+  border-bottom: 2px solid #a58c81;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+footer .container .footer_info button:hover {
+  transform: translateY(-5px);
+  background-color: transparent;
+  cursor: pointer;
+  color: #a58c81;
+}
+footer .container .footer_info button:active {
+  transform: scale(0.9);
+}
+footer .container .footer_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .container .footer_text h1 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #3d3a38;
+  font-family: "Mirza", serif;
+}
+footer .container .footer_text h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #3D3A38;
+}
+footer .container .footer_text h2 i {
+  margin-right: 10px;
+}
+footer .container .footer_text .footer_icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .container .footer_text .footer_icon i {
+  font-size: 32px;
+  color: #D1D1D1;
+  transition: all 0.3s ease;
+}
+footer .container .footer_text .footer_icon i:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+footer .container .footer_text .footer_icon i:active {
+  transform: scale(0.9);
 }/*# sourceMappingURL=main.css.map */
